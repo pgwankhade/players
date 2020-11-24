@@ -13,7 +13,7 @@ const CardList = ({ player }) => {
               name={player[i].PFName}
               skill={player[i].SkillDesc}
               value={player[i].Value}
-              date={player[i].UpComingMatchesList.MDate}
+              date={player[i].UpComingMatchesList[0].MDate}
               />
           );
         })
