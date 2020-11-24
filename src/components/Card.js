@@ -7,7 +7,7 @@ const Card = ({ name, skill, id, value, date }) => {
       <div>
         <h2>{name}</h2>
         <p>skill_desc:{skill}</p>
-        <h2>{date}</h2>
+        <h2>match date : {date}</h2>
         <h1>{value}$</h1>
        
       </div>
